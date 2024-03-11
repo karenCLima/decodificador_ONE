@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reponsivity.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./imgs/logoAlura.svg" alt="logo da alura">
+    </header>
+    <main class="principal">
+        <section class="principal__esquerda">
+            <div class="principal__esquerda">
+                <div class="principal__campo_texto">
+                    <textarea class="principal__campo_texto_mensagem" spellcheck="true" wrap="soft" placeholder="Digite seu texto"></textarea>
+                    
+
+                </div>
+        
+                <div class="principal__botoes">
+                    <div  class="principal__botoes__alerta">
+                        <img src="./imgs/bi_exclamation-circle-fill.svg" alt="circulo de exclamação">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="principal__botoes__encriptar">
+                        <a class="principal__botoes__codificar" href="#" id="codificarLink">Criptografar</a>
+                        <a class="principal__botoes__descodificar" href="#" id="descodificarLink">Descriptografar</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section class="principal__vizualizacao">
+            <textarea class="mensagemCodificada" spellcheck="true" wrap="soft"></textarea>
+            <h2 class="vizualizacao__posicao" onclick="codificandoTexto()">Nenhuma mensagem encontrada</h2>
+            <p class="vizualizacao__posicao">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <a  id="copiarLink" class="principal__vizualizacao__copiar" href="#">Copiar</a>
+        
+        </section>
+        
+    </main>
+    <footer class="rodape">
+        
+    </footer>
+
+    <script  type="text/javascript" src="./JS/script.js"></script>
+</body>
+</html>

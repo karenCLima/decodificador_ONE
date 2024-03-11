@@ -1,0 +1,109 @@
+@media screen and (max-width: 1222px) {
+
+    body{
+        height: 100vh;
+        overflow: auto;
+    }
+
+    header img{
+        margin-left: 2rem;
+        padding-left: 0;
+        width: 6.5rem;
+    }
+    
+    .principal{
+        flex-direction: column;
+        gap: 5%;
+        justify-content: space-between;
+    }
+
+    .principal__esquerda{
+        margin-left: 3.5rem;
+        gap: 2%;
+        margin-bottom: 5%;
+    }
+
+    .principal__campo_texto_mensagem{
+        height: 24rem;
+    }
+
+    .principal__botoes__alerta{
+        margin-bottom: 5%;
+    }
+
+    .principal__vizualizacao{
+        position: static;
+        height: auto;
+        width: 35.5rem;
+        margin-left: 5.5rem;
+        margin-right: 2.5rem;
+    }
+
+    .mensagemCodificada{
+        background-image: none;
+        margin-top: 1rem;
+        height: auto;
+        border-radius: 7%;
+        display: none; 
+    }
+
+    .principal__vizualizacao .principal__vizualizacao__copiar{
+        position: static;
+        display: block;
+        padding: 1rem 3.75rem;
+        margin:2% 6% 3% 4% ;
+        width: 92%;
+    }
+
+    .principal__botoes__codificar{
+        padding: 1.5rem 5rem;
+    }
+
+    .principal__botoes__descodificar{
+        padding: 1.5rem 4rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 710px) {
+
+    header img{
+        margin-left: 0;
+    }
+
+    .principal{
+        width: 100vw;
+    }
+
+    .principal__esquerda{
+        width: 90vw;
+        height: auto;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+
+    .principal__botoes{
+        height: auto;
+    }
+
+    .principal__botoes__encriptar{
+        flex-direction: column;
+        width: 88vw;
+    }
+
+    .principal__botoes__codificar{
+        margin-bottom: 2%;
+    }
+
+    .principal__vizualizacao{
+        margin-left: 2.5%;
+        margin-right: 0;
+        width: 90vw;
+    }
+
+    .mensagemCodificada{
+        height: auto;
+    }
+
+}

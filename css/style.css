@@ -1,0 +1,164 @@
+header{
+    width: 60.5em;;
+}
+
+header img{
+    width: 7.5rem;
+    height: 3rem;
+    padding: 2.5rem 0px 0.938rem 2.5rem;
+}
+
+.principal{
+    display: flex;
+
+}
+
+.principal__esquerda{
+    margin-left: 9.75rem;
+    margin-right: 3%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap:30%;
+}
+
+.principal__campo_texto_mensagem{
+    margin-top: 1%;
+    color: #0A3871;
+    font-size: 2rem;
+    text-align:left;
+    border: 0 none;
+    resize: none;
+    width: 100%;
+    height: 37.25rem;
+}
+
+.principal__campo_texto_mensagem:focus{
+    border: 0 none;
+    outline: 0;
+}
+
+::placeholder{
+    color:#0A3871;
+    font-size: 2rem;
+}
+
+.principal__botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+    height: 4.375rem;
+}
+
+.principal__botoes__alerta{
+    display: flex;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.principal__botoes__alerta img{
+    padding: 0.125rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.principal__botoes__alerta p{
+    color: #495057;
+    font-size: 0.813rem;
+    padding-left: 0.625rem;
+    vertical-align: middle;
+}
+
+.principal__botoes__encriptar{
+    display: flex;
+    gap: 2%;
+    width: 40.5rem;
+}
+
+.principal__botoes__codificar{
+    border-color: #0A3871;
+    background-color: #0A3871;
+    border: 0.063rem solid;
+    border-radius: 1.5rem;
+    padding: 1.5rem 4.375rem;
+    text-align: center;
+    color: white;
+}
+
+.principal__botoes__descodificar{
+    border-color:#0A3871;
+    border: 0.063rem solid;
+    background-color: #D8DFE8;
+    border-radius: 1.5rem;
+    padding: 1.5rem 3.688rem;
+    text-align: center;
+    color: #0A3871;
+}
+
+.principal__vizualizacao{
+    position: relative;
+    top: -3rem;
+    width: 25rem;
+    height: 50.625rem;
+    background-color:white;
+    border-radius: 2rem;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vizualizacao__posicao{
+    box-sizing: border-box;
+    padding: 2% 6% 2% 6%;
+    background-color: white;
+}
+
+.mensagemCodificada {
+    box-sizing: border-box;
+    margin-top: 8rem;
+    margin-left: 2%;
+    height: 19rem;
+    border: 0 none;
+    resize: none;
+    background: white;
+    background-image: url(../imgs/imageDoMenino.svg);
+    background-repeat: no-repeat;
+    font-size: 1.5rem;
+    color: #343A40;
+
+}
+
+.mensagemCodificada:focus{
+    border: 0 none;
+    outline: 0;
+}
+
+.principal__vizualizacao h2{
+    color: #343A40;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.principal__vizualizacao p{
+    color: #495057;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.principal__vizualizacao .principal__vizualizacao__copiar{
+    box-sizing: border-box;
+    width: 80%;
+    position: absolute;
+    top: 84%;
+    border-color:#0A3871;
+    border: 0.063rem solid;
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 1.5rem 3.75rem;
+    margin:2% 6% 2% 10% ;
+    text-align: center;
+    color: #0A3871;
+    display: none;
+}
